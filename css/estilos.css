@@ -1,0 +1,75 @@
+.titlePrincipales{
+  font-family:'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 60px;
+}
+
+
+.paddingTexto{
+  padding-top: 30px;
+
+}
+
+.imgAcerca{
+  padding-top: 30px;
+}
+
+
+.tamanio-icono{
+  font-size: 50px;
+  color: #0F9A9A;
+}
+.padding-iconos{
+  padding-top: 50px;
+}
+
+.padding-center{
+  text-align: center;
+}
+
+.tamanio-subtitulo{
+  font-size: 22px;
+  padding-top: 25px;
+}
+
+.galeria{
+  height: auto;
+}
+
+.contenedor-imagenes{
+  
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+
+}
+
+.contenedor-imagenes .imagen{
+  width: 30%;
+
+}
+
+.modal-container .img-fluid{
+  height: 250px;
+}
+
+
+@media (max-width: 720px){
+
+    .contenedor-imagenes{
+      
+      flex-direction: column;
+
+    }
+    
+    .contenedor-imagenes .imagen{
+      width: 100%;
+      padding: 20px;
+    }
+
+    .modal-container .img-fluid{
+      height: auto;
+    }
+}
